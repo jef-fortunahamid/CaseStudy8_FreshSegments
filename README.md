@@ -15,11 +15,13 @@ Danny seeks our expertise to scrutinize the aggregated metrics for a sample clie
   - *Rolling Analysis:* A rolling 3-month average of the max average composition, including previous top-ranking interests, offers insights into both immediate and slightly long-term trends.
 
 ## Key SQL Syntax and Functions
-- Joins (`FULL OUTER JOIN`, `INNER JOIN`)
-- Aggregation Functions (`AVG`, `COUNT`)
+- Joins (`FULL OUTER JOIN`, `INNER JOIN`, LEFT SEMI JOIN with `WHERE EXISTS`)
+- Aggregation Functions (`AVG`, `COUNT`, `MAX`, `MIN`, `SUM`)
 - Window Functions (`RANK`, `LAG`)
 - Common Table Expressions (CTE)
 - Conditional Logic (`CASE WHEN`)
+- Update Functions (`UPDATE`)
+- Table Modification (`ALTER TABLE`)
 
 ## Questions and Solutions
 ### Part A: Data Exploration and Cleansing
